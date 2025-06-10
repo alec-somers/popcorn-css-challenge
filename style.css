@@ -4,15 +4,19 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+body {
+  padding: 0;
+  margin: 0;
+}
 h1 {
   color: #553100;
   font-family: sans-serif;
-  padding-left: 100px;
-  padding-top: 50px;
+  float: left;
+  padding-left: 20px;
 }
 .main-header {
   background-color: #ffdbaa;
-  height: 100px;
+  height: 125px;
 }
 
 .header-button {
@@ -24,10 +28,66 @@ h1 {
 
 nav {
   float: inline-end;
+  padding-top: 15px;
 }
 
-a {
+button a {
   color: #ffffff;
   text-decoration: none;
   font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+main {
+  height: 1000px;
+  background-color: #d4a76a;
+  border-top: 2.5px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  /* align-content: center; */
+}
+
+.box {
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+  background-color: white;
+  text-align: center;
+}
+
+.box-header {
+  text-align: center;
+}
+
+.box-button {
+  background-color: #805215;
+  margin: 10px;
+  text-align: center;
+  border: 1.5px solid;
+  width: 280px;
+  height: 50px;
+}
+
+.box-paragraph {
+  text-align: left;
+  margin-left: 10px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+.box-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
