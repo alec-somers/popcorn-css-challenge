@@ -7,9 +7,12 @@ Main background - #D4A76A*/
 h1 {
   color: #553100;
   font-family: sans-serif;
+  padding-left: 100px;
+  padding-top: 50px;
 }
-header {
+.main-header {
   background-color: #ffdbaa;
+  height: 100px;
 }
 
 .header-button {
@@ -20,13 +23,11 @@ header {
 }
 
 nav {
-  padding: 0px 0px 0px 700px;
-  ali                                                                                                                                                                                      
+  float: inline-end;
 }
 
 a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-  font-size: large;
   font-family: sans-serif;
 }
