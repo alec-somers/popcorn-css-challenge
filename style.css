@@ -7,6 +7,7 @@ Main background - #D4A76A*/
 body {
   padding: 0;
   margin: 0;
+  background-color: #d4a76a;
 }
 h1 {
   color: #553100;
@@ -20,10 +21,10 @@ h1 {
 }
 
 .header-button {
-  background-color: #805215;
   height: 50px;
   width: 100px;
   margin-right: 25px;
+  font-size: large;
 }
 
 nav {
@@ -35,12 +36,10 @@ button a {
   color: #ffffff;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: large;
   font-weight: bold;
 }
 
 main {
-  height: 1000px;
   background-color: #d4a76a;
   border-top: 2.5px solid black;
   width: 100%;
@@ -52,29 +51,34 @@ main {
 
 .box {
   margin: 20px;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   border: 2px solid white;
   background-color: white;
   text-align: center;
+  align-content: center;
 }
 
 .box-header {
   text-align: center;
 }
 
-.box-button {
+button {
   background-color: #805215;
+}
+.box-button {
   margin: 10px;
   text-align: center;
   border: 1.5px solid;
-  width: 280px;
-  height: 50px;
+  width: 350px;
+  height: 80px;
+  font-size: 150%;
 }
 
 .box-paragraph {
   text-align: left;
   margin-left: 10px;
+  font-size: 150%;
 }
 
 p {
@@ -87,7 +91,29 @@ header {
 
 .box-container {
   width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.large-box {
+  margin: 20px;
+  width: 90%;
+  border: 1.5px solid white;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.large-button {
+  width: 98%;
+  height: 80px;
+  font-size: 150%;
+  margin: 10px;
+}
+
+footer {
   display: flex;
   justify-content: center;
-  gap: 2rem;
 }
